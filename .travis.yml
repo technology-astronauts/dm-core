@@ -18,8 +18,6 @@ rvm:
   - 1.9.3
   - 2.0.0
   - ruby-head
-  - rbx-18mode
-  - rbx-19mode
   - jruby-18mode
 env:
   - "GIT_BRANCH=master ADAPTER=in_memory"
