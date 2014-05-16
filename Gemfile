@@ -6,8 +6,6 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'coercible', '~> 0.2.0'
-
 SOURCE         = ENV.fetch('SOURCE', :git).to_sym
 REPO_POSTFIX   = SOURCE == :path ? ''                                : '.git'
 DATAMAPPER     = SOURCE == :path ? Pathname(__FILE__).dirname.parent : 'https://github.com/datamapper'
