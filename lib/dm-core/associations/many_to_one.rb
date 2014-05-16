@@ -266,7 +266,7 @@ module DataMapper
             :index        => name,
             :required     => required?,
             :key          => key?,
-            :unique       => @unique,
+            :unique       => @unique
           )
         end
 
